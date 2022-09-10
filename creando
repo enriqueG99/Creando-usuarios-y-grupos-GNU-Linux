@@ -1,0 +1,15 @@
+👉 Deespues de entrar como root creamos el grupo casa 👈
+👌: groupadd casa
+
+👉 Crear 2 usuarios  👈
+  useradd Miladys
+  useradd Enrique
+
+👉 Agregamos los usuarios al grupo antes creado 👈
+  adduser Clara casa
+  adduser Carlos casa
+  
+👉 Cambiamos el nombre del grupo y le colocamos Familia 👈
+  groupmod -n Familia casa
+  
+👌 LISTO 👌
